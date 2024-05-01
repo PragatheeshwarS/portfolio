@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Welcome</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- bootstrap cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+   <script src="js/mouse.js"></script>
+
+</head>
+<body>
+
+   <div class="ripple"></div>
+
+   <div class="cursor"></div>
+
+<!-- header section starts  -->
+
+<header class="header fixed-top">
+
+   <div class="container">
+
+      <div class="row align-items-center justify-content-between">
+
+         <!-- <img src="images\logo.png" class="logo-image"> -->
+
+         <!-- <a href="#" class="logo"><span>BE</span>FIT</a> -->
+
+         <nav class="nav1 cursor-scale small" id="nav1">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="courses.html">Internships</a>
+            <a href="#pricing">Projects</a>
+            <a href="#footer">Contact Us</a>
+            <!-- <a href="#team">Team</a>
+            <a href="#blogs">Blogs</a> -->
+         </nav>
+
+         <div id="menu-btn" class="fas fa-bars"></div>
+
+      </div>
+
+   </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<div class="video-container">
+   <video autoplay muted loop id="video-background">
+      <source src="images/background_video.mp4" type="video/mp4">
+   </video>
+</div>
+
+
+<section class="home" id="home">
+   <div class="container">
+
+      <div class="row align-items-center min-vh-100">
+
+         <div class="col-md-6">
+            <img src="images/first.jpg" class="w-100" alt="">
+         </div>
+
+         <div class="col-md-6 text-center text-md-left">
+            <span class="cursor-scale small">Be The Product Required for The Future Demand</span>
+            <h3 class="cursor-scale">S.PRAGATHEESHWAR Pre-Final Year</h3>
+            <a href="#pricing" class="link-btn">Resume</a>
+         </div>
+
+      </div>
+
+   </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+   <div class="container" data-aos="fade-left">
+
+      <div class="row align-items-center flex-wrap-reverse">
+
+         <div class="col-md-6 cursor-scale small">
+            <span>about me</span>
+            <h3>I'm an individual with a strong inclination towards restoration.</h3>
+            <p>I am S. Pragatheeshwar, currently pursuing my undergraduate degree at Sri Venkateswara
+               College of Engineering. I am dedicated to contributing positively to any organization I am a part of, as
+               evidenced by my development of a library software during my time in school. Leveraging my
+               past experiences, I aspire to innovate solutions for existing challenges and craft software
+               solutions that stand out in the competitive market landscape.</p>
+            <ul>
+               <li> <i class="far fa-check-square"></i> Team Player and a Strong leader </li>
+               <li> <i class="far fa-check-square"></i> Multitasking </li>
+               <li> <i class="far fa-check-square"></i> Fast Learner </li>
+               <li> <i class="far fa-check-square"></i> Public Speaker </li>
+            </ul>
+         </div>
+
+         <div class="col-md-6">
+            <img src="images/about.png" class="w-100" alt="">
+         </div>   
+
+      </div>
+
+   </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- counter section starts  -->
+
+<section class="counter">
+
+   <div class="container box-container" data-aos="fade-in">
+
+      <div class="box">
+         <h3>7</h3>
+         <p>Certifications</p>
+      </div>
+
+      <div class="box">
+         <h3>3</h3>
+         <p>Domain Knowledge</p>
+      </div>
+
+      <div class="box">
+         <h3>8+</h3>
+         <p>Programming Languages</p>
+      </div>
+
+      <div class="box">
+         <h3>10+</h3>
+         <p>Projects</p>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- counter section ends -->
+
+
+<!-- pricint section starts  -->
+
+<section class="pricing" id="pricing">
+
+   <div class="heading" data-aos="fade-in">
+      <span class="cursor-scale small">My Top 3 Projects</span>
+      <h3>Which helps the society</h3>
+   </div>
+
+   <div class="box-container container" data-aos="fade-left">
+
+      <div class="box">
+         <h3>Third Eye</h3>
+         <div class="price">
+            <img src="images/third-eye.jpeg">
+         </div>
+         
+         <div class="list">
+            <p>Third Eye - It is a project which aims to provide police a better scope to catch the crime causing people using 
+               RNN and LSTM, we have trained the model using MobileNet-v3 with over 2000+ video dataset. The LSTM model is used
+               to detect the unusual patterns in the body moments of the people in the streets and map with the trained dataset
+               to classifying them. We have used SDN to connect all the cameras in order to trace the criminal without GPS module.
+            </p>
+         </div>
+         <a href="https://github.com/PragatheeshwarS/Third-Eye" class="link-btn">See the Project</a>
+      </div>
+
+      <div class="box">
+         <h3>Terra Trooper</h3>
+         <div class="price">
+            <img src="images/terra.jpg">
+         </div>
+         
+         <div class="list">
+            <p>The Terra Trooper is a versatile Hexapod robot equipped with six legs, designed specifically for navigating challenging 
+               terrain where human access is limited. Its primary application lies in disaster management scenarios, where rescue operations 
+               often face uncertainty about the conditions below. However, the Terra Trooper excels in such environments, capable of 
+               traversing various terrains while autonomously detecting obstacles in its path.
+               Utilizing advanced algorithms like Rapidly Exploring Random Trees (RRT), it efficiently maps the quickest route 
+               from its starting point to the destination. For precise object detection, it integrates YOLO-v5 technology, fine-tuned 
+               with customized input parameters to achieve an outstanding accuracy rate of 99%.
+               Moreover, the Terra Trooper boasts resilience against damage through its innovative tripod gait algorithm. 
+               Even with three legs alternately impaired, it retains the ability to travel effectively, ensuring continued operation 
+               under challenging conditions.
+            </p>
+         </div>
+         <a href="https://www.youtube.com/watch?v=Iv-6cbBYO1I" class="link-btn">Project Video</a>
+      </div>
+
+      <div class="box">
+         <h3>AI Visionary for Blind</h3>
+         <div class="price">
+            <img src="images/AI-blind.webp">
+         </div>
+         
+         <div class="list">
+            <p>AI visionary for blind is a initiative which was stated to help the visually impaired people to walk safely on the streets
+               without any living assistance. The project involves detecting the obstaces in front of the person with distance metrics
+               and the danger possibility. It also involves fall detection and haptic sensors to navigate them.
+            </p>
+         </div>
+         <a href="https://github.com/PragatheeshwarS/Succour-to-Divyang" class="link-btn">See the Project</a>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- pricint section ends -->
+
+<!-- join us section starts  -->
+
+<br><br>
+<section class="join">
+
+   <div class="container">
+
+      <div class="row align-items-center">
+         <div class="col-md-7">
+            <img src="images/gov.jpg" class="w-100" alt="">
+         </div>
+         <div class="col-md-5 text-center text-md-left cursor-scale small">
+            <span>Honourable Recognition</span>
+            <h3>Received best contibution towards society via technical solutions from the <b style="color: orange;">Governor of Tamil Nadu R.N Ravi</b></h3>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error sint aut alias eligendi odit repudiandae laudantium voluptates quos officia quis?</p> -->
+            <a href="#" class="link-btn">Resume</a>
+         </div>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- join us section ends -->
+
+
+<!-- team section starts  -->
+<!-- 
+<section class="team" id="team">
+
+   <div class="heading">
+      <span>our team</span>
+      <h3>meet the expert team</h3>
+   </div>
+
+   <div class="box-container container">
+
+      <div class="box">
+         <img src="images/team-1.jpg" alt="">
+         <div class="content">
+            <span>gym trainer</span>
+            <h3>someone's name</h3>
+         </div>
+         <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+         </div>
+      </div>
+
+      <div class="box">
+         <img src="images/team-2.jpg" alt="">
+         <div class="content">
+            <span>gym trainer</span>
+            <h3>someone's name</h3>
+         </div>
+         <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+         </div>
+      </div>
+
+      <div class="box">
+         <img src="images/team-3.jpg" alt="">
+         <div class="content">
+            <span>gym trainer</span>
+            <h3>someone's name</h3>
+         </div>
+         <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+         </div>
+      </div>
+
+   </div>
+
+</section> -->
+
+<!-- team section ends -->
+
+<!-- blogs section starts  -->
+
+<!-- <section class="blogs" id="blogs">
+
+   <div class="heading">
+      <span>our blogs</span>
+      <h3>our daily posts</h3>
+   </div>
+
+   <div class="box-container container">
+
+      <div class="box">
+         <div class="image">
+            <img src="images/img-1.jpg" alt="">
+         </div>
+         <div class="content">
+            <a href="#" class="link">Make yourself stronger than your excuses.</a>
+            <div class="icons">
+               <span> <i class="fas fa-calendar"></i> 21st may, 2022 </span>
+               <span> <i class="fas fa-user"></i> by admin </span>
+            </div>
+         </div>
+      </div>
+
+      <div class="box">
+         <div class="image">
+            <img src="images/img-2.jpg" alt="">
+         </div>
+         <div class="content">
+            <a href="#" class="link">Make yourself stronger than your excuses.</a>
+            <div class="icons">
+               <span> <i class="fas fa-calendar"></i> 21st may, 2022 </span>
+               <span> <i class="fas fa-user"></i> by admin </span>
+            </div>
+         </div>
+      </div>
+
+      <div class="box">
+         <div class="image">
+            <img src="images/img-3.jpg" alt="">
+         </div>
+         <div class="content">
+            <a href="#" class="link">Make yourself stronger than your excuses.</a>
+            <div class="icons">
+               <span> <i class="fas fa-calendar"></i> 21st may, 2022 </span>
+               <span> <i class="fas fa-user"></i> by admin </span>
+            </div>
+         </div>
+      </div>
+
+   </div>
+
+</section> -->
+
+<!-- blogs section ends -->
+
+
+<!-- footer section starts  -->
+
+<section class="footer cursor-scale small" id="footer">
+
+   <div class="box-container container" data-aos="fade-left">
+
+      <div class="box">
+         <h3>quick links</h3>
+         <a href="#home"> <i class="fas fa-angle-right"></i> home</a>
+         <a href="#about"> <i class="fas fa-angle-right"></i> about</a>
+         <a href="#courses"> <i class="fas fa-angle-right"></i> Internships</a>
+         <a href="#pricing"> <i class="fas fa-angle-right"></i> Projects</a>
+         <!-- <a href="#team"> <i class="fas fa-angle-right"></i> team</a>
+         <a href="#blogs"> <i class="fas fa-angle-right"></i> blogs</a> -->
+      </div>
+
+      <div class="box">
+         <h3>contact info</h3>
+         <a href="#"> <i class="fas fa-phone"></i> 97911 24426 </a>
+         <a href="#"> <i class="fas fa-phone"></i> 98842 77196 </a>
+         <a href="#"> <i class="fas fa-envelope"></i> spragatheeshwar@gmail.com </a>
+         <a href="#"> <i class="fas fa-map"></i> Chennai, India 600094 </a>
+      </div>
+
+      <div class="box">
+         <h3>follow us</h3>
+         <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+         <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+         <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+         <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+      </div>
+
+      <div class="box">
+         <h3>Contact</h3>
+         <p>Ping me !!</p>
+         <form action="">
+            <input type="email" name="" placeholder="enter your email" id="" class="email">
+            <input type="submit" value="subscribe" class="link-btn">
+         </form>
+      </div>
+
+   </div>
+
+   <p class="credit"> created by <span>Pragatheeshwar</span> | all rights reserved! 2024</p>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+<!-- custom js file link     -->
+<!-- <script src="js/script.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
+<script src="js/mouse.js"></script>
+<script src="js/ripple.js"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+   AOS.init({
+      duration: 3000,
+      once: true,
+   });
+</script>
+<script>
+   let menu = document.querySelector('#menu-btn');
+   let navbar = document.querySelector('.header .nav1');
+
+   menu.onclick = () =>{
+      menu.classList.toggle('fa-times');
+      navbar.classList.toggle('active');
+   };
+
+   window.onscroll = () =>{
+      menu.classList.remove('fa-times');
+      navbar.classList.remove('active');
+
+      if(window.scrollY > 0){
+         document.querySelector('.header').classList.add('active');
+      }else{
+         document.querySelector('.header').classList.remove('active');
+      }
+   }
+</script>
+<!-- <script src="js/scroll_animation.js"></script> -->
+   
+</body>
+</html>
